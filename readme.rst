@@ -1,6 +1,19 @@
 ###################
-What is CodeIgniter
+CodeIgniter 3 Starter Template by JoseLuis Gomez Ceceña
 ###################
+
+
+This is a starter template for CodeIgniter 3.1.11.
+It is based on the default template that comes with CodeIgniter,
+but with some modifications to make it easier to use.
+
+It includes:
+- htaccess file to make the URLs look cleaner and to prevent
+  direct access to the application files.
+- Auto loaded most commonly used libraries and helpers.
+- Pages controller with a default view for static pages.
+- Bootstrap 5.2.1.
+- jQuery 3.6.0.
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
 who build web sites using PHP. Its goal is to enable you to develop projects
@@ -14,16 +27,8 @@ for a given task.
 Release Information
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+This repo contains in-development code for future releases. If you are looking for a stable
+release, please download the master branch from: https://github.com/joseluisgomezcecena/codeigniter-3-starter
 
 *******************
 Server Requirements
@@ -39,8 +44,10 @@ issues, as well as missing features.
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
+- Clone this repo into your web server's document root.
+- Create a database and change the credentials in config/database.php or simply create a Db named starter.
+
+And that's it!
 
 *******
 License
@@ -48,24 +55,3 @@ License
 
 Please see the `license
 agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
