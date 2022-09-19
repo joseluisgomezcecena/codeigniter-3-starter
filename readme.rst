@@ -8,7 +8,8 @@ It is based on the default template that comes with CodeIgniter,
 but with some modifications to make it easier to use.
 
 It includes:
-- htaccess file to make the URLs look cleaner and to prevent direct access to the application files.
+
+- Htaccess file to make the URLs look cleaner and to prevent direct access to the application files.
 - Auto loaded most commonly used libraries and helpers.
 - Pages controller with a default view for static pages.
 - Bootstrap 5.2.1.
